@@ -2,6 +2,7 @@
 
 <% @garden.plants.each do |plant| %>
   <div class="plant_card">
+    <img src="<%= plant.image_url %>" alt="">
     <%= plant.name %>
   </div>
 <% end %>

@@ -53,3 +53,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "pry-byebug", "~> 3.9"
+
+gem "simple_form", "~> 5.1"
