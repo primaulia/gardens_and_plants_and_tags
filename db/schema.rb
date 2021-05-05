@@ -13,7 +13,7 @@
 ActiveRecord::Schema.define(version: 2021_05_05_063730) do
 
   create_table "gardens", force: :cascade do |t|
-    t.string "name"
+    t.string "name", default: "Garden Gardenish"
     t.string "image_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 2021_05_05_063730) do
   create_table "plants", force: :cascade do |t|
     t.string "name"
     t.string "image_url"
-    t.integer "garden_id", null: false
+    t.bigint "garden_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["garden_id"], name: "index_plants_on_garden_id"
