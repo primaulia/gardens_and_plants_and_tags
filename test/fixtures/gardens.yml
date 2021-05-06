@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: "Jamies Garden"
+  image_url: "http://jamies_garden.png"
+
+two:
+  name: "Kikis Garden"
+  image_url: "http://jamies_garden.png"

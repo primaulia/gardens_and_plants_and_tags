@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: 'kimura'
+  image_url: 'http://www.plants.com/kimura.jpg'
+  garden: one
+
+two:
+  name: 'monstera'
+  image_url: 'http://www.plants.com/monstera.jpg'
+  garden: two
