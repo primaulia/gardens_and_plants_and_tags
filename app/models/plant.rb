@@ -12,5 +12,7 @@ class Plant < ApplicationRecord
   validates_associated :garden
   validates :name, presence: true
   validates :image_url, presence: true
+  # TODO, how does a plant relates to a tag?
+
 end
 
