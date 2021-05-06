@@ -16,8 +16,12 @@ You need to fix the following specs in the data model
 
 [ ] A Tag:
 ... has a name
-... is referred by a Plant
-... is limited to either one of these groups (Fruit tree, Cactus, Greasy plant, Flower, Ferns, Conifers)
+
+[ ] A PlantTag:
+... connect one plant and one tag
+... must be uniquely associate plant and tag
+
+i.e. a different plant can have a same tag, vice versa
 
 [X] A Garden:
 ...has a name
